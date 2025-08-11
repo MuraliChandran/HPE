@@ -49,18 +49,6 @@ vis_rgb = draw_keypoints(img_rgb, kps, threshold=0.3)
 cv2.imshow("Pose", cv2.cvtColor(vis_rgb, cv2.COLOR_RGB2BGR))
 cv2.waitKey(0)
 ```
-
-### 3. Webcam
-Inside the notebook:
-```python
-run_webcam(threshold=0.3)
-```
-
-### 4. Video file
-```python
-run_video("input.mp4", output_path="out.mp4", threshold=0.3)
-```
-
 ---
 
 ## Output Format
